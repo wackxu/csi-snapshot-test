@@ -1,0 +1,5 @@
+name: ubuntu
+version: latest
+image: ubuntu
+cpu: 2c
+memory: 2G

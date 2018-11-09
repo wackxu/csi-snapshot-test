@@ -1,0 +1,6 @@
+name: gatk
+version: 4.0.9.0
+image: registry.southchina.huaweicloud.com/l00427178/gatk:4.0.9.0
+cpu: 2c
+memory: 2G
+description: gatk

@@ -1,0 +1,6 @@
+name: bwa
+version: 0.7.12 
+image: registry.southchina.huaweicloud.com/l00427178/bwa:0.7.12-r1039-sam18-sbb67
+cpu: 2c
+memory: 2G
+description: bwa

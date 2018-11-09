@@ -1,0 +1,6 @@
+name: zsplit
+version: 0.2
+image: registry.southchina.huaweicloud.com/l00427178/zsplit:0.2
+cpu: 2c
+memory: 2G
+description: zsplit
