@@ -1,0 +1,35 @@
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+Phase:        Succeeded
+Message:      execution has run successfully
+workflow:
+  jobprepare(total: 1; success: 1; failed: 0; running: 0; error: 0):
+    Subtask                       Phase      Message
+    -------                       -----      -------
+    execution-bf0dc.jobprepare.0  Succeeded  success
+  joba(total: 2; success: 2; failed: 0; running: 0; error: 0):
+    Subtask                 Phase      Message
+    -------                 -----      -------
+    execution-bf0dc.joba.0  Succeeded  success
+    execution-bf0dc.joba.1  Succeeded  success
+  jobb(total: 3; success: 3; failed: 0; running: 0; error: 0):
+    Subtask                 Phase      Message
+    -------                 -----      -------
+    execution-bf0dc.jobb.0  Succeeded  success
+    execution-bf0dc.jobb.1  Succeeded  success
+    execution-bf0dc.jobb.2  Succeeded  success
+  jobc(total: 2; success: 2; failed: 0; running: 0; error: 0):
+    Subtask                 Phase      Message
+    -------                 -----      -------
+    execution-bf0dc.jobc.1  Succeeded  success
+    execution-bf0dc.jobc.0  Succeeded  success
+  jobd(total: 2; success: 2; failed: 0; running: 0; error: 0):
+    Subtask                 Phase      Message
+    -------                 -----      -------
+    execution-bf0dc.jobd.1  Succeeded  success
+    execution-bf0dc.jobd.0  Succeeded  success
+  jobfinish(total: 1; success: 1; failed: 0; running: 0; error: 0):
+    Subtask                      Phase      Message
+    -------                      -----      -------
+    execution-bf0dc.jobfinish.0  Succeeded  success
